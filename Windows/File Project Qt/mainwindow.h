@@ -1,3 +1,10 @@
+/*
+ * Author   : PT. Rekaindo Global Jasa Engineer Team X Mechatronics PENS
+ * Date     : 08/05/2025
+ * Note     :
+ * Contact  : 081235738756
+*/
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -126,3 +133,7 @@ private slots:
     void runModeDefault();
 };
 #endif // MAINWINDOW_H
+
+// END OF PROGRAM
+// Created by PT. Rekaindo GLobal Jasa Engineer Team and Mechatronics PENS
+// Copyright 2025
