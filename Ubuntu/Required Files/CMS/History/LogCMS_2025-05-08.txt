@@ -1,0 +1,54 @@
+[2025-05-08 09:04:12] Aplikasi dijalankan!
+[2025-05-08 09:04:12] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:04:14] Status update berhasil: Current Video  :      
+[2025-05-08 09:04:14] List video telah diperbaharui.
+[2025-05-08 09:04:14] Status update berhasil: Next Video     :      
+[2025-05-08 09:04:16] File berhasil diunduh: /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/Required Files/CMS/Downloaded/Iklan4.mp4
+[2025-05-08 09:04:17] File berhasil diunduh: /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/Required Files/CMS/Downloaded/Iklan1.mp4
+[2025-05-08 09:04:17] File berhasil diunduh: /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/Required Files/CMS/Downloaded/Iklan5.mp4
+[2025-05-08 09:04:17] File berhasil diunduh: /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/Required Files/CMS/Downloaded/Iklan3.mp4
+[2025-05-08 09:04:17] File berhasil diunduh: /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/Required Files/CMS/Downloaded/Iklan2.mp4
+[2025-05-08 09:23:34] Aplikasi dijalankan!
+[2025-05-08 09:23:34] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:23:36] List video telah diperbaharui.
+[2025-05-08 09:23:36] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:23:36] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:23:36] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:23:36] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:23:36] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:23:36] Status update berhasil: Current Video  :      
+[2025-05-08 09:23:36] Status update berhasil: Next Video     :      
+[2025-05-08 09:25:33] Aplikasi dijalankan!
+[2025-05-08 09:25:33] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:25:35] Status update berhasil: Next Video     :      
+[2025-05-08 09:25:35] Status update berhasil: Current Video  :      
+[2025-05-08 09:25:36] List video telah diperbaharui.
+[2025-05-08 09:25:36] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:25:36] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:25:36] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:25:36] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:25:36] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:56] Aplikasi dijalankan!
+[2025-05-08 09:28:56] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:28:58] List video telah diperbaharui.
+[2025-05-08 09:28:58] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:58] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:58] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:58] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:58] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:28:58] Status update berhasil: Current Video  :      
+[2025-05-08 09:28:58] Status update berhasil: Next Video     :      
+[2025-05-08 09:53:20] Aplikasi dijalankan!
+[2025-05-08 09:53:20] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:54:16] Aplikasi dijalankan!
+[2025-05-08 09:54:16] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:55:14] Aplikasi dijalankan!
+[2025-05-08 09:55:14] Sesi dibuka dengan IP: 192.168.9.87
+[2025-05-08 09:55:16] List video telah diperbaharui.
+[2025-05-08 09:55:16] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:55:16] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:55:16] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:55:16] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:55:16] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 09:55:16] Status update berhasil: Current Video  :      
+[2025-05-08 09:55:16] Status update berhasil: Next Video     :      
