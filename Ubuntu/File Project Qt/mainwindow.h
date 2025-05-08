@@ -1,8 +1,9 @@
-/*
- * Author   : PT. Rekaindo Global Jasa Engineer Team X Mechatronics PENS
+/*!
+ * Author   : Diki Hermawan
+ * Company  : PT. Rekaindo Global Jasa Engineer Team X Mechatronics PENS
  * Date     : 08/05/2025
- * Note     :
- * Contact  : 081235738756
+ * Contact  : hermawansocmed@gmail.com
+ * Note     : -
 */
 
 #ifndef MAINWINDOW_H
