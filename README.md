@@ -9,7 +9,7 @@ REST API Files : C:/laragon/www/\
 Required Files : D:/
 ### Ubuntu/Linux
 File Project Qt : /home/<user>/Documents/Qt Project/\
-Required Files : /home/<user>/
+Required Files : /home/<user>/\
 Rest API Files : not used in Ubuntu, because server running in Windows
 ## Contact me
 - Email : hermawansocmed@gmail.com
