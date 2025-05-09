@@ -13,7 +13,7 @@ Required Files : /home/<user>/\
 Rest API Files : not used in Ubuntu, because server running in Windows
 ## Contact me
 - Email : hermawansocmed@gmail.com
-- [GitHub](https://github.com/hermawandiki)
-- [Instagram](https://instagram.com/hermawandiki__)
-- [Linkedin](https://linkedin.com/in/hermawandiki)
-- [YouTube](https://youtube.com/@dikihermawann)
+- Github : [GitHub](https://github.com/hermawandiki)
+- Instagram : [Instagram](https://instagram.com/hermawandiki__)
+- Linkedin : [Linkedin](https://linkedin.com/in/hermawandiki)
+- YouTube : [YouTube](https://youtube.com/@dikihermawann)
