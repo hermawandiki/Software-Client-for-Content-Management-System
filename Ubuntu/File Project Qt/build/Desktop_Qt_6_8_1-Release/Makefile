@@ -99,11 +99,13 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
@@ -286,6 +288,10 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri \
@@ -416,11 +422,13 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri \
@@ -603,6 +611,10 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri \
@@ -729,11 +741,13 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_3drender_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_bluetooth_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_charts_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_chartsqml_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_concurrent_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core5compat_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_core_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_datavisualization_private.pri:
@@ -916,6 +930,10 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri:
