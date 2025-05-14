@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>background_setting.png</file>
         <file>img_exit.png</file>
         <file>icon.ico</file>
+        <file>background_setting.png</file>
     </qresource>
 </RCC>
