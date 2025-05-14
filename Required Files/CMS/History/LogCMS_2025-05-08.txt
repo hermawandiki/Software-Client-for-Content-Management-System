@@ -1,0 +1,69 @@
+[2025-05-08 15:33:51] Aplikasi dijalankan!
+[2025-05-08 15:33:51] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-08 15:33:53] List video telah diperbaharui.
+[2025-05-08 15:33:53] File jadwal tidak tersedia.
+[2025-05-08 15:33:53] Status update berhasil: Next Video     :      
+[2025-05-08 15:33:53] Status update berhasil: Current Video  :      
+[2025-05-08 15:33:55] File berhasil diunduh: D:/CMS/Downloaded/Iklan1.mp4
+[2025-05-08 15:33:55] File berhasil diunduh: D:/CMS/Downloaded/Iklan2.mp4
+[2025-05-08 15:33:55] File berhasil diunduh: D:/CMS/Downloaded/Iklan4.mp4
+[2025-05-08 15:33:55] File berhasil diunduh: D:/CMS/Downloaded/Iklan3.mp4
+[2025-05-08 15:33:55] File berhasil diunduh: D:/CMS/Downloaded/Iklan5.mp4
+[2025-05-08 15:33:57] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-08 15:36:39] Aplikasi dijalankan!
+[2025-05-08 15:36:39] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-08 15:36:41] List video telah diperbaharui.
+[2025-05-08 15:36:41] File jadwal tidak tersedia.
+[2025-05-08 15:36:41] Status update berhasil: Current Video  :      
+[2025-05-08 15:36:41] Status update berhasil: Next Video     :      
+[2025-05-08 15:36:43] File berhasil diunduh: D:/CMS/Downloaded/Iklan1.mp4
+[2025-05-08 15:36:43] File berhasil diunduh: D:/CMS/Downloaded/Iklan4.mp4
+[2025-05-08 15:36:43] File berhasil diunduh: D:/CMS/Downloaded/Iklan3.mp4
+[2025-05-08 15:36:43] File berhasil diunduh: D:/CMS/Downloaded/Iklan2.mp4
+[2025-05-08 15:36:43] File berhasil diunduh: D:/CMS/Downloaded/Iklan5.mp4
+[2025-05-08 15:37:39] Memperbarui data sebelum pemutaran iklan dimulai...
+[2025-05-08 15:37:41] File jadwal tidak tersedia.
+[2025-05-08 15:37:41] List video telah diperbaharui.
+[2025-05-08 15:37:41] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:37:41] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:37:41] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:37:41] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:37:41] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:39] Memperbarui data sebelum pemutaran iklan dimulai...
+[2025-05-08 15:38:41] File jadwal tidak tersedia.
+[2025-05-08 15:38:41] List video telah diperbaharui.
+[2025-05-08 15:38:41] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:41] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:41] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:41] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:41] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:38:49] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-08 15:38:59] Aplikasi dijalankan!
+[2025-05-08 15:38:59] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-08 15:39:01] List video telah diperbaharui.
+[2025-05-08 15:39:01] File jadwal tidak tersedia.
+[2025-05-08 15:39:01] Status update berhasil: Current Video  :      
+[2025-05-08 15:39:01] Status update berhasil: Next Video     :      
+[2025-05-08 15:39:03] File berhasil diunduh: D:/CMS/Downloaded/Iklan1.mp4
+[2025-05-08 15:39:03] File berhasil diunduh: D:/CMS/Downloaded/Iklan2.mp4
+[2025-05-08 15:39:03] File berhasil diunduh: D:/CMS/Downloaded/Iklan3.mp4
+[2025-05-08 15:39:03] File berhasil diunduh: D:/CMS/Downloaded/Iklan4.mp4
+[2025-05-08 15:39:03] File berhasil diunduh: D:/CMS/Downloaded/Iklan5.mp4
+[2025-05-08 15:39:59] Memperbarui data sebelum pemutaran iklan dimulai...
+[2025-05-08 15:40:01] List video telah diperbaharui.
+[2025-05-08 15:40:01] Video Iklan1.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:40:01] Video Iklan2.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:40:01] Video Iklan3.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:40:01] Video Iklan4.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:40:01] Video Iklan5.mp4 sudah ada, tidak diunduh ulang.
+[2025-05-08 15:40:01] File jadwal tidak tersedia.
+[2025-05-08 15:40:08] Aplikasi ditutup - Sesi dihentikan!
+
+
+

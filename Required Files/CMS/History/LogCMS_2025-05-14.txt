@@ -1,0 +1,57 @@
+[2025-05-14 08:38:14] Aplikasi dijalankan!
+[2025-05-14 08:38:14] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-14 08:38:17] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-14 10:25:39] Aplikasi dijalankan!
+[2025-05-14 10:25:39] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-14 10:25:43] Gagal mengunduh file ID 0: Connection refused
+[2025-05-14 10:25:43] Gagal mengambil data: Connection refused
+[2025-05-14 10:25:43] Gagal update status: Connection refused
+[2025-05-14 10:25:43] Gagal update status: Connection refused
+[2025-05-14 10:26:39] Memperbarui data sebelum pemutaran iklan dimulai...
+[2025-05-14 10:26:43] Gagal mengunduh file ID 0: Connection refused
+[2025-05-14 10:26:43] Gagal mengambil data: Connection refused
+[2025-05-14 10:27:39] Memperbarui data sebelum pemutaran iklan dimulai...
+[2025-05-14 10:27:41] List video telah diperbaharui.
+[2025-05-14 10:27:41] File berhasil diunduh: D:/CMS/Downloaded/JadwalVideo.csv
+[2025-05-14 10:27:41] Jadwal telah diperbaharui.
+[2025-05-14 10:27:41] Hari sudah terlewat untuk jadwal 2025-05-10 23:50:00
+[2025-05-14 10:27:42] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-14 10:27:43] Aplikasi dijalankan!
+[2025-05-14 10:27:43] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-14 10:27:45] List video telah diperbaharui.
+[2025-05-14 10:27:45] File berhasil diunduh: D:/CMS/Downloaded/JadwalVideo.csv
+[2025-05-14 10:27:45] Jadwal telah diperbaharui.
+[2025-05-14 10:27:45] Hari sudah terlewat untuk jadwal 2025-05-10 23:50:00
+[2025-05-14 10:27:45] Status update berhasil: Current Video  :      
+[2025-05-14 10:27:45] Status update berhasil: Next Video     :      
+[2025-05-14 10:27:47] File berhasil diunduh: D:/CMS/Downloaded/Iklan1.mp4
+[2025-05-14 10:27:47] File berhasil diunduh: D:/CMS/Downloaded/Iklan2.mp4
+[2025-05-14 10:27:47] File berhasil diunduh: D:/CMS/Downloaded/Iklan4.mp4
+[2025-05-14 10:27:47] File berhasil diunduh: D:/CMS/Downloaded/Iklan3.mp4
+[2025-05-14 10:27:48] File berhasil diunduh: D:/CMS/Downloaded/Iklan5.mp4
+[2025-05-14 10:28:05] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-14 12:48:25] Aplikasi dijalankan!
+[2025-05-14 12:48:25] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-14 12:48:29] Gagal mengunduh file ID 0: Connection refused
+[2025-05-14 12:48:29] Gagal mengambil data: Connection refused
+[2025-05-14 12:48:29] Gagal update status: Connection refused
+[2025-05-14 12:48:29] Gagal update status: Connection refused
+[2025-05-14 12:49:21] Aplikasi ditutup - Sesi dihentikan!
+
+
+
+[2025-05-14 12:49:40] Aplikasi dijalankan!
+[2025-05-14 12:49:40] Sesi dibuka dengan IP: 127.0.0.1
+[2025-05-14 12:49:43] Aplikasi ditutup - Sesi dihentikan!
+
+
+

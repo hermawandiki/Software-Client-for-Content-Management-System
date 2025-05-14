@@ -1,1 +1,0 @@
-Tested using Laragon with Apache Webserver and MySQL Database
