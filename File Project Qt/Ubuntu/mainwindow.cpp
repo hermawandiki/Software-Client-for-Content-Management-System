@@ -36,7 +36,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     // Overlay Setup
     image = new QLabel(ui->page_video);
-    QPixmap img("/home/hermawan/CMS/KAI.png");
+    QPixmap img(QDir::homePath() + "/CMS/KAI.png");
     if (!img.isNull()) {
         image->setGeometry(0, 0, 1920, 1080);
         image->setPixmap(img.scaled(1920, 1080, Qt::KeepAspectRatio, Qt::SmoothTransformation));
@@ -95,20 +95,20 @@ MainWindow::MainWindow(QWidget *parent)
     updateTimer->start(60000); // Periksa setiap 1 menit
 
     // Inisialisasi daftar file yang sudah ada
-    QDir downloadDir("/home/hermawan/CMS/Downloaded");
+    QDir downloadDir(QDir::homePath() + "/CMS/Downloaded");
     if (downloadDir.exists()) {
         for (const QString &file : downloadDir.entryList(QDir::Files)) {
             downloadedFiles.insert(file);
         }
     }
-    QDir entertainmentDir("/home/hermawan/CMS/Entertainment");
+    QDir entertainmentDir(QDir::homePath() + "/CMS/Entertainment");
     if (entertainmentDir.exists()) {
         for (const QString &file : entertainmentDir.entryList(QDir::Files)) {
             downloadedFiles.insert(file);
         }
     }
 
-    QDir dir("/home/hermawan/CMS/Entertainment");
+    QDir dir(QDir::homePath() + "/CMS/Entertainment");
     if (!dir.exists()) return;
     entertainment = dir.entryList(QDir::Files);
     if (entertainment.isEmpty()) return;
@@ -128,7 +128,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->keterangan->setReadOnly(true);
     clearAllFocus();
 
-    QSettings settings("/home/hermawan/CMS/History/configCMS.ini", QSettings::IniFormat);
+    QSettings settings(QDir::homePath() + "/CMS/History/configCMS.ini", QSettings::IniFormat);
     QString savedIP = settings.value("Network/IP", "").toString();
     ui->textIP->setText(savedIP);
 
@@ -160,7 +160,7 @@ MainWindow::~MainWindow()
     player->stop();
     player->setSource(QUrl());
 
-    QDir dir("/home/hermawan/CMS/Downloaded");
+    QDir dir(QDir::homePath() + "/CMS/Downloaded");
     if (!dir.exists()) {
         return;
     }
@@ -241,7 +241,7 @@ void MainWindow::on_btnSetIP_clicked()  // SET ALAMAT IP
         IP = ui->textIP->text();
         ui->textIP->clearFocus();
         addLog("Sesi dibuka dengan IP: " + IP);
-        QSettings settings("/home/hermawan/CMS/History/configCMS.ini", QSettings::IniFormat);
+        QSettings settings(QDir::homePath() + "/CMS/History/configCMS.ini", QSettings::IniFormat);
         settings.setValue("Network/IP", IP);
     } else {
         QMessageBox::warning(this, "IP Tidak Valid", "Masukkan alamat IP yang valid (misalnya: 192.168.1.1).");
@@ -369,7 +369,7 @@ void MainWindow::downloadFile(int id)       // FUNGSI UNTUK UNDUH FILE DARI DATA
     QUrl url(urlString);
     QNetworkRequest request(url);
 
-    QString downloadDir = "/home/hermawan/CMS/Downloaded";
+    QString downloadDir = QDir::homePath() + "/CMS/Downloaded";
     QDir dir(downloadDir);
     if (!dir.exists()) {
         dir.mkpath(downloadDir);
@@ -400,7 +400,7 @@ void MainWindow::downloadFile(int id)       // FUNGSI UNTUK UNDUH FILE DARI DATA
             }
 
             // Tentukan filePath berdasarkan localFileName
-            QString downloadDir = "/home/hermawan/CMS/Downloaded";
+            QString downloadDir = QDir::homePath() + "/CMS/Downloaded";
             QString updatedFilePath = QDir(downloadDir).filePath(localFileName);
 
             QFile file(updatedFilePath);
@@ -464,7 +464,7 @@ void MainWindow::parseCSV(const QString &filePath)      // TAMPILKAN JADWAL KE T
             continue;
         }
 
-        vFilePath.append("/home/hermawan/CMS/Downloaded/" + values[0]);
+        vFilePath.append(QDir::homePath() + "/CMS/Downloaded/" + values[0]);
         vStartTime.append(QTime::fromString(values[1], "HH:mm:ss"));
         vEndTime.append(QTime::fromString(values[2], "HH:mm:ss"));
         vLoop.append(values[3].toInt());
@@ -644,7 +644,7 @@ void MainWindow::playSelectedVideo()        // FUNGSI UNTUK PEMUTARAN VIDEO DARI
 
     // Ambil URL video dari kolom ke-2 (Index 2)
     QString filename = ui->tableVideo->item(selectedRow, 1)->text();
-    QString videoUrl = "/home/hermawan/CMS/Downloaded/" + filename;
+    QString videoUrl = QDir::homePath() + "/CMS/Downloaded/" + filename;
 
     if (videoUrl.isEmpty()) {
         addLog("URL video kosong!");
@@ -671,7 +671,7 @@ void MainWindow::addLog(const QString &message)     // FUNGSI UNTUK MENAMPILKAN 
     ui->keterangan->verticalScrollBar()->setValue(ui->keterangan->verticalScrollBar()->maximum());
     // Tentukan nama file log berdasarkan tanggal saat ini
     QString currentDate = QDateTime::currentDateTime().toString("yyyy-MM-dd");  // Format tanggal (contoh: 2025-05-03)
-    QString logFilePath = QString("/home/hermawan/CMS/History/LogCMS_%1.txt").arg(currentDate);  // Membuat file log berdasarkan tanggal
+    QString logFilePath = QString(QDir::homePath() + "/CMS/History/LogCMS_%1.txt").arg(currentDate);  // Membuat file log berdasarkan tanggal
 
     // Pastikan folder ada
     QDir logDir = QFileInfo(logFilePath).absoluteDir();
@@ -716,7 +716,7 @@ void MainWindow::mainLoop()     // LOOPING UTAMA PEMILIHAN RUNMODE
 void MainWindow::runModeA()     // MODE A : DENGAN STARTTIME DAN JUMLAH LOOP
 {
     if(firstCall){
-        playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+        playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
         ui->listEntertainment->item(indexE)->setBackground(Qt::yellow);
         flagEntertainment = true;
     } else {
@@ -799,7 +799,7 @@ void MainWindow::runModeA()     // MODE A : DENGAN STARTTIME DAN JUMLAH LOOP
                 // SKIP ENTERTAINMENT INI DIK
             } else if (flagAdv || skipAdv) {
                 indexE = (indexE+1) % entertainment.size();
-                playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+                playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
                 flagEntertainment = true;
                 for (int i = 0; i < ui->listEntertainment->count(); i++) {
                     ui->listEntertainment->item(i)->setBackground(i == indexE ? Qt::yellow : Qt::white);
@@ -812,7 +812,7 @@ void MainWindow::runModeA()     // MODE A : DENGAN STARTTIME DAN JUMLAH LOOP
 void MainWindow::runModeB()     // MODE B : DENGAN STARTTIME DAN ENDTIME
 {
     if(firstCall){
-        playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+        playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
         ui->listEntertainment->item(indexE)->setBackground(Qt::yellow);
     } else {
         if(updatePlay){
@@ -860,7 +860,7 @@ void MainWindow::runModeB()     // MODE B : DENGAN STARTTIME DAN ENDTIME
                 updatePlay = true;
             } else {
                 indexE = (indexE+1) % entertainment.size();
-                playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+                playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
                 for (int i = 0; i < ui->listEntertainment->count(); i++) {
                     ui->listEntertainment->item(i)->setBackground(i == indexE ? Qt::yellow : Qt::white);
                 }
@@ -872,12 +872,12 @@ void MainWindow::runModeB()     // MODE B : DENGAN STARTTIME DAN ENDTIME
 void MainWindow::runModeDefault()       // MODE DEFAULT : KETIKA JADWAL DAN VIDEO TIDAK TERSEDIA
 {
     if(firstCall){
-        playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+        playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
         ui->listEntertainment->item(indexE)->setBackground(Qt::yellow);
     } else {
         if(player->mediaStatus() == QMediaPlayer::EndOfMedia){
             indexE = (indexE+1) % entertainment.size();
-            playVideo("/home/hermawan/CMS/Entertainment/" + entertainment[indexE]);
+            playVideo(QDir::homePath() + "/CMS/Entertainment/" + entertainment[indexE]);
             for (int i = 0; i < ui->listEntertainment->count(); i++) {
                 ui->listEntertainment->item(i)->setBackground(i == indexE ? Qt::yellow : Qt::white);
             }

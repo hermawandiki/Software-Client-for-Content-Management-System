@@ -17,7 +17,7 @@ CXX           = g++
 DEFINES       = -DQT_NO_DEBUG -DQT_MULTIMEDIAWIDGETS_LIB -DQT_MULTIMEDIA_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -O2 -Wall -Wextra -fPIC -D_REENTRANT $(DEFINES)
 CXXFLAGS      = -pipe -O2 -std=gnu++1z -Wall -Wextra -fPIC -D_REENTRANT $(DEFINES)
-INCPATH       = -I../../../File\ Project\ Qt -I. -I/home/hermawan/Qt/6.8.1/gcc_64/include -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimedia -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtNetwork -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtCore -I. -I. -I/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++
+INCPATH       = -I../../../Ubuntu -I. -I/home/hermawan/Qt/6.8.1/gcc_64/include -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimedia -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtNetwork -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtCore -I. -I. -I/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++
 QMAKE         = /home/hermawan/Qt/6.8.1/gcc_64/bin/qmake
 DEL_FILE      = rm -f
 CHK_DIR_EXISTS= test -d
@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = CMS_Client1.0.0
-DISTDIR = /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/File\ Project\ Qt/build/Desktop_Qt_6_8_1-Release/.tmp/CMS_Client1.0.0
+DISTDIR = /home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/File\ Project\ Qt/Ubuntu/build/Desktop_Qt_6_8_1-Release/.tmp/CMS_Client1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -Wl,-rpath,/home/hermawan/Qt/6.8.1/gcc_64/lib -Wl,-rpath-link,/home/hermawan/Qt/6.8.1/gcc_64/lib
 LIBS          = $(SUBLIBS) /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6MultimediaWidgets.so /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6Multimedia.so -pthread /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6Widgets.so /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6Gui.so /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6Network.so /home/hermawan/Qt/6.8.1/gcc_64/lib/libQt6Core.so -lpthread -lGL   
@@ -1380,7 +1380,7 @@ moc_mainwindow.cpp: ../../mainwindow.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui/qpen.h \
 		moc_predefs.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/libexec/moc
-	/home/hermawan/Qt/6.8.1/gcc_64/libexec/moc $(DEFINES) --include '/home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/File Project Qt/build/Desktop_Qt_6_8_1-Release/moc_predefs.h' -I/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++ -I'/home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/Ubuntu/File Project Qt' -I/home/hermawan/Qt/6.8.1/gcc_64/include -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimedia -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtNetwork -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtCore -I. -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -ID:/Software/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ../../mainwindow.h -o moc_mainwindow.cpp
+	/home/hermawan/Qt/6.8.1/gcc_64/libexec/moc $(DEFINES) --include '/home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/File Project Qt/Ubuntu/build/Desktop_Qt_6_8_1-Release/moc_predefs.h' -I/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++ -I'/home/hermawan/Documents/GitHub/Software-Client-for-Content-Management-System/File Project Qt/Ubuntu' -I/home/hermawan/Qt/6.8.1/gcc_64/include -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimediaWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtMultimedia -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtNetwork -I/home/hermawan/Qt/6.8.1/gcc_64/include/QtCore -I. -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++ -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32 -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include -ID:/Software/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed -ID:/Software/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include ../../mainwindow.h -o moc_mainwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
