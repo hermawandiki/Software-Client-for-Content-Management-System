@@ -1,7 +1,7 @@
 /*!
  * Author   : Diki Hermawan
  * Company  : PT. Rekaindo Global Jasa Engineer Team X Mechatronics PENS
- * Date     : 14/05/2025
+ * Date     : 20/05/2025
  * Contact  : hermawansocmed@gmail.com
  * Note     : -
 */
@@ -18,14 +18,14 @@ MainWindow::MainWindow(QWidget *parent)
     this->setWindowFlags(Qt::Window | Qt::FramelessWindowHint);
 
     // Video Table
-    ui->tableVideo->setColumnWidth(0, 72);
+    ui->tableVideo->setColumnWidth(0, 74);
     ui->tableVideo->setColumnWidth(1, 250);
     ui->tableVideo->setColumnWidth(2, 536);
     ui->tableVideo->setRowCount(0);
     ui->tableVideo->horizontalHeader()->setSectionResizeMode(QHeaderView::Fixed);
 
     // Schedule Table
-    ui->tableSchedule->setColumnWidth(0, 246);
+    ui->tableSchedule->setColumnWidth(0, 248);
     ui->tableSchedule->setColumnWidth(1, 148);
     ui->tableSchedule->setColumnWidth(2, 148);
     ui->tableSchedule->setColumnWidth(3, 86);

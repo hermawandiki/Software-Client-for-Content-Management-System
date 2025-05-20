@@ -45,8 +45,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-</string>
+     <string notr="true"/>
     </property>
     <widget class="QWidget" name="page_setting">
      <property name="styleSheet">
@@ -68,6 +67,7 @@
         <italic>false</italic>
         <bold>true</bold>
         <underline>false</underline>
+        <stylestrategy>PreferDefault</stylestrategy>
         <kerning>false</kerning>
        </font>
       </property>
@@ -215,6 +215,8 @@ QPushButton:pressed{
        <font>
         <family>Arial</family>
         <pointsize>15</pointsize>
+        <bold>false</bold>
+        <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="styleSheet">
@@ -226,15 +228,17 @@ QPushButton:pressed{
 	border:1px solid rgb(0, 0, 127);
 }
 QTableWidget::item::selected{
-	color: rgb(0, 4, 83);
-	background-color: rgb(0, 170, 255);
+    background-color: #0284c7;
+    color: white;
 }
 QHeaderView{
 	background-color: rgb(240, 242, 245);
 	color: rgb(0, 4, 83);
 }
 QHeaderView::section{
-	background-color:orange;
+    background-color: #e0f2fe;
+    font-weight: bold;
+    font-size: 18px;
 	color: rgb(0, 4, 83);
 	border:1px solid black;
 }</string>
@@ -1331,6 +1335,7 @@ QHeaderView::section{
        <font>
         <family>Arial</family>
         <pointsize>15</pointsize>
+        <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="styleSheet">
@@ -1342,15 +1347,17 @@ QHeaderView::section{
 	border:1px solid rgb(0, 0, 127);
 }
 QTableWidget::item::selected{
-	color: rgb(0, 4, 83);
-	background-color: rgb(0, 170, 255);
+    background-color: #0284c7;
+    color: white;
 }
 QHeaderView{
 	background-color: rgb(240, 242, 245);
 	color: rgb(0, 4, 83);
 }
 QHeaderView::section{
-	background-color:orange;
+    background-color: #e0f2fe;
+    font-weight: bold;
+    font-size: 18px;
 	color: rgb(0, 4, 83);
 	border:1px solid black;
 }</string>
@@ -2468,6 +2475,7 @@ QHeaderView::section{
         <family>Franklin Gothic</family>
         <pointsize>12</pointsize>
         <bold>false</bold>
+        <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="styleSheet">
@@ -2589,6 +2597,7 @@ QPushButton:pressed{
        <font>
         <pointsize>15</pointsize>
         <bold>true</bold>
+        <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="styleSheet">
@@ -2615,6 +2624,7 @@ background-color: rgb(241, 241, 241);</string>
        <font>
         <pointsize>25</pointsize>
         <bold>true</bold>
+        <stylestrategy>PreferDefault</stylestrategy>
        </font>
       </property>
       <property name="styleSheet">
