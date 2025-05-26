@@ -213,7 +213,7 @@ QPushButton:pressed{
       </property>
       <property name="font">
        <font>
-        <family>Arial</family>
+        <family>Ubuntu</family>
         <pointsize>15</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
@@ -227,15 +227,15 @@ QPushButton:pressed{
 	border:1px solid rgb(0, 0, 127);
 }
 QTableWidget::item::selected{
-	color: rgb(0, 4, 83);
-	background-color: rgb(0, 170, 255);
+	color: white;
+	background-color: #0284c7;
 }
 QHeaderView{
 	background-color: rgb(240, 242, 245);
 	color: rgb(0, 4, 83);
 }
 QHeaderView::section{
-	background-color:orange;
+	background-color: #e0f2fe;
 	color: rgb(0, 4, 83);
 	border:1px solid black;
 }</string>
@@ -1284,7 +1284,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -1296,7 +1296,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -1308,7 +1308,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -1330,7 +1330,7 @@ QHeaderView::section{
       </property>
       <property name="font">
        <font>
-        <family>Arial</family>
+        <family>Ubuntu</family>
         <pointsize>15</pointsize>
         <stylestrategy>PreferDefault</stylestrategy>
        </font>
@@ -1344,15 +1344,15 @@ QHeaderView::section{
 	border:1px solid rgb(0, 0, 127);
 }
 QTableWidget::item::selected{
-	color: rgb(0, 4, 83);
-	background-color: rgb(0, 170, 255);
+	color: white;
+	background-color: #0284c7;
 }
 QHeaderView{
 	background-color: rgb(240, 242, 245);
 	color: rgb(0, 4, 83);
 }
 QHeaderView::section{
-	background-color:orange;
+	background-color: #e0f2fe;
 	color: rgb(0, 4, 83);
 	border:1px solid black;
 }</string>
@@ -2404,7 +2404,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -2416,6 +2416,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -2427,7 +2428,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -2439,7 +2440,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>
@@ -2451,7 +2452,7 @@ QHeaderView::section{
         <font>
          <family>Arial</family>
          <pointsize>15</pointsize>
-         <bold>false</bold>
+         <bold>true</bold>
         </font>
        </property>
       </column>

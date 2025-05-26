@@ -154,8 +154,6 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
@@ -172,10 +170,6 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
@@ -288,10 +282,6 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri \
@@ -316,21 +306,17 @@ DIST          = /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/features/spec_pre.prf \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserverquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_compositor_hw_integration_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webview.pri \
@@ -477,8 +463,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_linguist.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri \
@@ -495,10 +479,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_png_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri \
@@ -611,10 +591,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri \
@@ -639,21 +615,17 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserverquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_compositor_hw_integration_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell_private.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell.pri \
-		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick.pri \
+		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri \
 		/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webview.pri \
@@ -796,8 +768,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_linguist.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_location_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_mqtt_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimedia_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_multimediaquick_private.pri:
@@ -814,10 +784,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_openglwidgets_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_packetprotocol_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_png_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioning_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_positioningquick_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_printsupport_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_qdoccatch_private.pri:
@@ -930,10 +896,6 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickvectorimagegenerator_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_quickwidgets_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensors_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_sensorsquick_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialbus_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_serialport.pri:
@@ -958,21 +920,17 @@ Makefile: ../../CMS_Client.pro /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/linux-g++/
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboard_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_virtualkeyboardsettings_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserver_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_vncserverquick_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_client_hw_integration_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_wayland_egl_compositor_hw_integration_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandclient_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositor_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositoriviapplication_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorpresentationtime_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorwlshell_private.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell.pri:
-/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandcompositorxdgshell_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_waylandglobal_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannel_private.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick.pri:
+/home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webchannelquick_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_websockets_private.pri:
 /home/hermawan/Qt/6.8.1/gcc_64/mkspecs/modules/qt_lib_webview.pri:
@@ -2005,7 +1963,7 @@ mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets/QGraphicsScene \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets/qgraphicsscene.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtGui/qpen.h \
-		../../ui_mainwindow.h \
+		ui_mainwindow.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets/QApplication \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets/qapplication.h \
 		/home/hermawan/Qt/6.8.1/gcc_64/include/QtWidgets/QGraphicsView \

@@ -139,7 +139,7 @@ public:
         QFont font3;
         font3.setFamilies({QString::fromUtf8("Arial")});
         font3.setPointSize(15);
-        font3.setBold(false);
+        font3.setBold(true);
         QTableWidgetItem *__qtablewidgetitem = new QTableWidgetItem();
         __qtablewidgetitem->setFont(font3);
         tableVideo->setHorizontalHeaderItem(0, __qtablewidgetitem);
@@ -156,7 +156,7 @@ public:
         sizePolicy.setHeightForWidth(tableVideo->sizePolicy().hasHeightForWidth());
         tableVideo->setSizePolicy(sizePolicy);
         QFont font4;
-        font4.setFamilies({QString::fromUtf8("Arial")});
+        font4.setFamilies({QString::fromUtf8("Ubuntu")});
         font4.setPointSize(15);
         font4.setStyleStrategy(QFont::PreferDefault);
         tableVideo->setFont(font4);
@@ -168,15 +168,15 @@ public:
 "	border:1px solid rgb(0, 0, 127);\n"
 "}\n"
 "QTableWidget::item::selected{\n"
-"	color: rgb(0, 4, 83);\n"
-"	background-color: rgb(0, 170, 255);\n"
+"	color: white;\n"
+"	background-color: #0284c7;\n"
 "}\n"
 "QHeaderView{\n"
 "	background-color: rgb(240, 242, 245);\n"
 "	color: rgb(0, 4, 83);\n"
 "}\n"
 "QHeaderView::section{\n"
-"	background-color:orange;\n"
+"	background-color: #e0f2fe;\n"
 "	color: rgb(0, 4, 83);\n"
 "	border:1px solid black;\n"
 "}"));
@@ -198,11 +198,8 @@ public:
         QTableWidgetItem *__qtablewidgetitem3 = new QTableWidgetItem();
         __qtablewidgetitem3->setFont(font3);
         tableSchedule->setHorizontalHeaderItem(0, __qtablewidgetitem3);
-        QFont font5;
-        font5.setFamilies({QString::fromUtf8("Arial")});
-        font5.setPointSize(15);
         QTableWidgetItem *__qtablewidgetitem4 = new QTableWidgetItem();
-        __qtablewidgetitem4->setFont(font5);
+        __qtablewidgetitem4->setFont(font3);
         tableSchedule->setHorizontalHeaderItem(1, __qtablewidgetitem4);
         QTableWidgetItem *__qtablewidgetitem5 = new QTableWidgetItem();
         __qtablewidgetitem5->setFont(font3);
@@ -228,15 +225,15 @@ public:
 "	border:1px solid rgb(0, 0, 127);\n"
 "}\n"
 "QTableWidget::item::selected{\n"
-"	color: rgb(0, 4, 83);\n"
-"	background-color: rgb(0, 170, 255);\n"
+"	color: white;\n"
+"	background-color: #0284c7;\n"
 "}\n"
 "QHeaderView{\n"
 "	background-color: rgb(240, 242, 245);\n"
 "	color: rgb(0, 4, 83);\n"
 "}\n"
 "QHeaderView::section{\n"
-"	background-color:orange;\n"
+"	background-color: #e0f2fe;\n"
 "	color: rgb(0, 4, 83);\n"
 "	border:1px solid black;\n"
 "}"));
@@ -256,24 +253,24 @@ public:
         keterangan = new QTextEdit(page_setting);
         keterangan->setObjectName("keterangan");
         keterangan->setGeometry(QRect(55, 725, 876, 266));
-        QFont font6;
-        font6.setFamilies({QString::fromUtf8("Franklin Gothic")});
-        font6.setPointSize(12);
-        font6.setBold(false);
-        font6.setStyleStrategy(QFont::PreferDefault);
-        keterangan->setFont(font6);
+        QFont font5;
+        font5.setFamilies({QString::fromUtf8("Franklin Gothic")});
+        font5.setPointSize(12);
+        font5.setBold(false);
+        font5.setStyleStrategy(QFont::PreferDefault);
+        keterangan->setFont(font5);
         keterangan->setStyleSheet(QString::fromUtf8("background-color: rgb(240, 242, 245);\n"
 "color: rgb(0, 4, 83);\n"
 "border:1px solid rgb(240, 242, 245);"));
         listEntertainment = new QListWidget(page_setting);
         listEntertainment->setObjectName("listEntertainment");
         listEntertainment->setGeometry(QRect(1005, 730, 871, 261));
-        QFont font7;
-        font7.setFamilies({QString::fromUtf8("Franklin Gothic")});
-        font7.setPointSize(12);
-        font7.setStyleStrategy(QFont::NoAntialias);
-        font7.setHintingPreference(QFont::PreferNoHinting);
-        listEntertainment->setFont(font7);
+        QFont font6;
+        font6.setFamilies({QString::fromUtf8("Franklin Gothic")});
+        font6.setPointSize(12);
+        font6.setStyleStrategy(QFont::NoAntialias);
+        font6.setHintingPreference(QFont::PreferNoHinting);
+        listEntertainment->setFont(font6);
         listEntertainment->setFocusPolicy(Qt::FocusPolicy::NoFocus);
         listEntertainment->setStyleSheet(QString::fromUtf8("background-color: rgb(240, 242, 245);\n"
 "color: rgb(0, 4, 83);\n"
@@ -284,12 +281,12 @@ public:
         btnExit = new QPushButton(page_setting);
         btnExit->setObjectName("btnExit");
         btnExit->setGeometry(QRect(1835, 25, 56, 61));
-        QFont font8;
-        font8.setPointSize(15);
-        font8.setBold(true);
-        font8.setStyleStrategy(QFont::NoAntialias);
-        font8.setHintingPreference(QFont::PreferNoHinting);
-        btnExit->setFont(font8);
+        QFont font7;
+        font7.setPointSize(15);
+        font7.setBold(true);
+        font7.setStyleStrategy(QFont::NoAntialias);
+        font7.setHintingPreference(QFont::PreferNoHinting);
+        btnExit->setFont(font7);
         btnExit->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
         btnExit->setFocusPolicy(Qt::FocusPolicy::NoFocus);
         btnExit->setStyleSheet(QString::fromUtf8("QPushButton{\n"
@@ -311,22 +308,22 @@ public:
         date = new QLabel(page_setting);
         date->setObjectName("date");
         date->setGeometry(QRect(1495, 115, 386, 41));
-        QFont font9;
-        font9.setPointSize(15);
-        font9.setBold(true);
-        font9.setStyleStrategy(QFont::PreferDefault);
-        date->setFont(font9);
+        QFont font8;
+        font8.setPointSize(15);
+        font8.setBold(true);
+        font8.setStyleStrategy(QFont::PreferDefault);
+        date->setFont(font8);
         date->setStyleSheet(QString::fromUtf8("color: rgb(5, 4, 83);\n"
 "background-color: rgb(241, 241, 241);"));
         date->setAlignment(Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter);
         time = new QLabel(page_setting);
         time->setObjectName("time");
         time->setGeometry(QRect(1715, 150, 166, 41));
-        QFont font10;
-        font10.setPointSize(25);
-        font10.setBold(true);
-        font10.setStyleStrategy(QFont::PreferDefault);
-        time->setFont(font10);
+        QFont font9;
+        font9.setPointSize(25);
+        font9.setBold(true);
+        font9.setStyleStrategy(QFont::PreferDefault);
+        time->setFont(font9);
         time->setStyleSheet(QString::fromUtf8("color: rgb(5, 4, 83);\n"
 "background-color: rgb(241, 241, 241);"));
         time->setAlignment(Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter);
