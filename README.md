@@ -8,8 +8,8 @@ REST API Files : C:/laragon/www/\
 *I'm using Laragon 6.0.0 for Webserser and Database Access\
 Required Files : D:/
 ### Ubuntu/Linux
-File Project Qt : /home/<user>/Documents/Qt Project/\
-Required Files : /home/<user>/\
+File Project Qt : ~/Documents/Qt Project/\
+Required Files : ~/\
 Rest API Files : not used in Ubuntu, because server running in Windows
 ## Contact me
 - Email : hermawansocmed@gmail.com
