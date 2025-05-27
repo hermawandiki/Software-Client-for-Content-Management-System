@@ -5,7 +5,7 @@ This project was completed during internship at PT Rekaindo Global Jasa (INKA Gr
 ### Windows
 File Project Qt : C:/Documents/Qt Project/\
 REST API Files : C:/laragon/www/\
-*I'm using Laragon 6.0.0 for Webserser and Database Access\
+*I'm using Laragon 6.0.0 for Webserver and Database Access\
 Required Files : D:/
 ### Ubuntu/Linux
 File Project Qt : ~/Documents/Qt Project/\
