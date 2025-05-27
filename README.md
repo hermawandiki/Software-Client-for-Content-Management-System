@@ -3,7 +3,7 @@ This project was completed during internship at PT Rekaindo Global Jasa (INKA Gr
 
 ## Placement Files Instruction
 ### Windows
-File Project Qt : C:/Users/<user>/Documents/Qt Project/\
+File Project Qt : C:/Documents/Qt Project/\
 REST API Files : C:/laragon/www/\
 *I'm using Laragon 6.0.0 for Webserser and Database Access\
 Required Files : D:/
