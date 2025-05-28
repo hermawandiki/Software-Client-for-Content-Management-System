@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img_exit.png</file>
+        <file>background_setting.png</file>
+        <file>logo.ico</file>
+    </qresource>
+</RCC>
